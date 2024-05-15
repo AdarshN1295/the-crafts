@@ -1,0 +1,320 @@
+@media(max-width: 1200px){
+div.nav_links nav ul{
+    width: 100%;}
+input.search_filter{
+    width: 200px;}
+
+div.featured--block.carousel{
+    padding: 0;
+    height: auto;
+    flex-wrap: wrap;}
+
+div.blogs_wrapper{
+    width: 80%;}}
+    
+@media(max-width: 1300px){
+div.featured--block{
+    padding: 0;
+    row-gap: 30px;
+    height: auto;
+    flex-wrap: wrap;}
+
+div.featured--block.carousel div.card_box{
+    width: 32%;}}
+
+@media(max-width: 960px){
+input.search_filter{
+    margin-bottom: 5px;}
+    
+div.featured--block.carousel div.card_box{
+    width: 48%;}
+
+div.sub--checkout{
+    height: auto;
+    flex-direction: column-reverse;}
+
+div.product-summary div.product-det{
+    gap: 20px;}
+
+div.customer--details form div.customer-state{
+    background-color: transparent;
+    color: #c7c7c7;}
+
+div.customer--details form div.address-customer input.customer-landmark, div.customer--details form div.address-customer input.customer-address,
+div.customer--details div.form-name input[type="text"],
+aside.left_user-info,
+aside.right_product-info{
+    width: 100%;}
+
+div.custom--termsBox{
+    width: 80%;
+    margin: 0 auto;}
+
+div.customer--details form div.state--box{
+    width: 100%;
+    margin: 0 0 10px;}
+
+div.customer--details form div.form-name,
+div.customer--details form div.address-customer{
+    height: auto;
+    row-gap: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;}
+
+aside.left_user-info h2.checkout_heading{
+    text-align: center;
+}
+
+div.product-summary{
+    height: auto;
+}
+
+div.customer--details form input.customer-number, 
+div.customer--details form input.customer-email{
+    width: 85%;
+}
+
+div.nav_links nav ul li.menu_links{
+    font-size: 14px;
+    padding: 0px !important;}}
+
+
+@media(max-width: 640px){
+div.header_searchBar,
+div.nav_links{
+    display: none;}
+
+div.black_box{
+    height: 150px;}
+
+i.close--nav{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 24px;}
+
+div.product_description{
+    height: auto;}
+
+div.product-box--content div.color_variant{
+    width: 100%;}
+
+div.featured--block.carousel div.card_box{
+    width: 100%;}
+
+p.welcome_description{
+    width: 85%;
+    text-align: justify;}
+
+section.featured--product.product_card div.featured--block{
+    flex-direction: column;
+    height: auto;
+    row-gap: 20px;}
+
+section.section-infographics div.scroll_infographic{
+    flex-direction: column-reverse;}
+
+section.section-infographics div.scroll_infographic div.info_content{
+    width: 90%;
+    text-align: center;}
+
+section.section-infographics div.sub_flex__infograph{
+    row-gap: 50px;}
+
+section.section_category div.category--list{
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;}
+
+section.section_category div.category_element{
+    overflow: hidden;}
+
+div.blog_element{
+    width: 100%;}
+
+section.section_category div.category_element p.abso_category{
+    position: absolute;
+    top: 50%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #ffffff99;
+    width: 100%;
+    text-align: center;
+    max-height: 35px;
+    padding: 10px 0;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+section.section_welcome h1.welcome_heading{
+    font-size: 48px;
+    margin: 20px 0;}
+
+h2.shopByCategory__heading,
+h2.infographics_heading,
+h2.featured_product--heading{
+    font-size: 48px;}
+
+section.section_featured-product h2.featured-product_heading{
+    font-size: 48px;
+    margin: 0px 10px 20px;}
+
+section.section_featured-product div.featured--product-flex{
+    flex-direction: column;
+    row-gap: 20px;}
+
+section.section_featured-product div.image_child-block,
+section.section_featured-product div.product-info_child-block{
+    width: 90%;}
+
+section.featured--product.product_card div.featured--block div.card_box{
+    width: 100%;}
+
+div.head--mobile--nav{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+div.header_logo img{
+    width: 200px;}
+
+div.lower_header--block{
+    height: 100px;}
+
+div.logo_n_icons i.fa-solid{
+    font-size: 20px;
+    color: white;}
+
+div.header_icons{
+    width: 15%;}
+
+div.announcement-bar marquee{
+    font-size: 14px;}
+
+div.icon_scroll{
+    width: 20%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;}
+
+div.mobile--navBar{
+    transition: all 0.6s ease;
+    width: 80%;
+    height: 100vh;
+    background-color: lavender;
+    z-index: 9999;
+    position: fixed;
+    left: 0;}
+
+div.usp_block img{
+    width: 60%;
+    height: auto;}
+
+footer.custom_footer.footer_block,
+div.footer-logo-div{
+    height: auto;}
+
+div.sub--footer-an{
+    flex-direction: column;}
+
+div.footer-logo,
+div.footer-navLinks,
+div.footer-newsletter{
+    width: 100%;
+    padding: 10px;}
+
+a.first_image--banner{
+    display: none !important;}
+
+section.section_image-banner a.second_image--banner{
+    display: block;}
+
+section.section_review{
+    overflow-x: hidden;}
+
+div.footer-logo-div p.footer-about,
+p.footer-subscribe,
+h4.footer-form{
+    text-align: left;}
+
+div.collection_cl_grab-box{
+    width: 49% !important;}
+
+div.collection_card{
+    gap: 10px;}
+
+div.brand-usp--wrapper{
+    width: 100%;
+    padding: 0px;}
+
+div.logo_n_icons{
+    padding: 0px 20px;
+    height: 100%;
+    justify-content: space-between;
+}}
+
+@media(max-width: 570px){
+div.collection_card{
+    justify-content: center;
+    row-gap: 20px;}
+
+div.collection_cl_grab-box{
+    width: 95% !important;}}
+
+@media (max-width: 748px){
+.R-content{
+    width: 500px;
+    height: auto;}
+     
+div.formNcont_contact form{
+    width: 100%;    
+    gap: 10px;}
+
+div.formNcont_contact form input[type="text"], div.formNcont_contact form textarea{
+    width: 90%;}
+
+div.formNcont_contact form input[type='submit']{
+    width: max-content;
+}
+
+div.card_box{
+    padding: 15px 0;}
+
+.main-flex-review{
+    gap: 10px;}
+    
+.review{
+    height: auto !important;}
+
+.rCont-cent{
+    padding: 25px 0;}
+
+.R-content p{
+    text-align: justify;}
+
+.R-img{
+    display: none;
+    width: 300px;
+    height: auto;}
+     
+.review{
+    flex-direction: row-reverse;
+    flex-wrap: wrap;}
+
+div.product_grid{
+    height: auto;
+    min-height: 600px;
+    flex-direction: column;}
+
+div.product-box--content,
+div.product-image--media{
+    width: 90%;}
+}
+
+@media(max-width: 1020px){
+    div.collection_cl_grab-box{
+        width: 32%;
+    }
+}

@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #232323;}
+
+html, body{
+    width: 100%;
+    height: 100%;}
+
+main.main--content{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+div.left--aside{
+    width: 25%;
+    height: 100%;
+    padding-top: 10px;
+    background-color: rgb(15, 15, 61);}
+
+div.menu{
+    width: 100%;
+    height: 100%;
+    padding: 20px;}
+
+ul.ul--list-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;}
+
+ul.ul--list-wrapper li.menu_link{
+    padding: 15px 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 100%;
+    transition: all 0.6s ease;
+    background-color: rgb(11, 11, 74);
+    color: white;
+    list-style-type: none;}
+
+ul.ul--list-wrapper li.menu_link:hover{
+    background-color: rgb(29, 29, 109);}
+
+i.fa-solid,
+i.fa-regular{
+    color: white;
+    font-size: 16px;
+    margin: 0px 10px;}
+
+div.right--aside{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+div.Rsub_wrapper{
+    width: 96%;
+    height: 95%;
+    position: relative;
+    background-color: #f5f5f5;}
+
+div.Rsub_wrapper h2.welcome_msg{
+    text-align: center;
+    margin: 20px 0;}
+
+div.main__headElems{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0;
+    padding: 10px 20px;
+    justify-content: space-between;}
+
+div.search_bar{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 30px;}
+
+form{
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: start;}
+
+input[type="text"],
+div.product--add--form-wrapper form textarea{
+    width: 88%;
+    padding: 8px 10px;} 
+
+input[type="text"]{
+    border: 2px solid #0F0F3D;
+    border-radius: 12px;
+    background-color: white;}
+
+input[type="submit"]{
+    width: 10%;
+    padding: 8px 0;
+    border: 2px solid #0F0F3D;
+    background-color: white;
+    border-radius: 12px;}
+
+button#product--add--button{
+    padding: 8px 20px;
+    border-radius: 12px;
+    background: transparent;
+    color: #0F0F3D;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: 2px solid #0F0F3D;}
+
+button#product--add--button:hover{
+    box-shadow: 0px 0px 10px #ffffff80;}
+
+div.product--table-elem,
+div.page--table-elem{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;}
+
+table.product--list,
+table.order--list{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    height: 100%;}
+
+table.product--list td,
+table.product--list th,
+table.page--list td,
+table.page--list th,
+table.order--list td,
+table.order--list th{
+    padding: 10px;
+    background-color: white;}
+
+table.product--list td,
+table.order--list td{
+    padding: 8px 20px;
+    text-align: center;}
+
+table.page--list td{
+    padding: 20px;}
+
+table.product--list th.span_width,
+table.page--list td.span_width,
+table.order--list th.span_width{
+    width: 50%;}
+
+table.product--list th,
+table.order--list th{
+    padding: 15px 0;}
+
+table.product--list td div.flex,
+table.order--list td div.flex,
+table.page--list td div.flex{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;}
+
+table.product--list td img,
+table.order--list td img{
+    width: 35px;
+    height: 35px;}
+
+table.product--list td,
+table.order--list td{
+    font-size: 14px;}
+
+div.product--pagination{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px 0;}
+
+button.paginate{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #232323;
+    color: #232323;
+    transition: all 0.4s ease;
+    font-weight: 700;
+    padding: 5px 10px;}
+
+button.paginate a{
+    text-decoration: none;
+    color: unset;}
+
+main#main__content div.product--add--form-wrapper form div.left_block{
+    width: 60%;}
+
+main#main__content div.product--add--form-wrapper form div.right_block{
+    width: 35%;
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;}
+
+main#main__content div.product--add--form-wrapper form div.right_block div.product_newRightBlock{
+    width: 100%;
+    padding: 20px 0;}
+
+main#main__content div.product--add--form-wrapper form div.right_block div.product_newRightBlock select{
+    width: 100%;
+    padding: 8px 10px;}
+
+main#main__content div.product--add--form-wrapper form div.right_block div.product_newRightBlock select option{
+    padding: 10px;}
+
+div.product_newRightBlock1 input[type="text"]{
+    margin-bottom: 20px;}
+
+main#main__content div.product--add--form-wrapper form div.right_block div.product_newRightBlock1,
+main#main__content div.product--add--form-wrapper form div.right_block div.product_newRightBlock1 input[type="text"]{
+    width: 100%;}
+
+main#main__content div.product--add--form-wrapper form div.left_block div.product_firstBlock{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+main#main__content div.product--add--form-wrapper form div.left_block div.product_firstBlock > div{
+    width: 100%;}
+
+main#main__content div.product--add--form-wrapper form div.left_block div.product_secondBlock{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+main#main__content div.product--add--form-wrapper form div.left_block div.product_secondBlock > div{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+    border: 2px dashed #d7d7d7;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;}
+
+main#main__content div.product--add--form-wrapper form div.left_block div.product_thirdBlock{
+    height: 210px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+main#main__content div.product--add--form-wrapper form div.left_block div.product_thirdBlock > div{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;}
+
+h2.heading--product,
+h2.heading--page{
+    padding: 10px 20px;
+    margin: 10px 0;}
+
+main#main__content div.product--add--form-wrapper form div.left_block div.product_fourthBlock{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;}
+
+div.product--add--form-wrapper form input[type="submit"]{
+    border: 2px solid rgb(15, 15, 61);
+    color: rgb(15, 15, 61);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    border-radius: 12px;
+    background-color: transparent;
+    transition: all 0.6s ease;
+    cursor: pointer;}
+
+div.product--add--form-wrapper form input[type="submit"]:hover{
+    background-color: rgb(15, 15, 61);
+    color: white;}
+
+div.product--add--form-wrapper form textarea{
+    height: 130px;
+    border: 2px solid #e6e6e6;
+    background-color: transparent;
+    border-radius: 12px;}
+
+div.product--add--form-wrapper form input[type="text"],
+div.product--add--form-wrapper form select,
+div.product--add--form-wrapper form textarea{
+    border: 1px solid #0F0F3D;
+    width: 100%;
+    border-radius: 6px;}
+
+div.product--pagination,
+div.page--pagination{
+    position: absolute;
+    bottom: 10px;}
+
+
+div.page--add--form-wrapper form textarea{
+    width: 88%;
+    padding: 10px;
+    border: 2px solid #0f0f3d;
+    height: 320px;
+    background-color: transparent;
+    border-radius: 12px;}
+
+div.div.page--add--form-wrapper form input[type="text"],
+div.div.page--add--form-wrapper form select,
+div.div.page--add--form-wrapper form textarea{
+    border: 1px solid #0F0F3D;
+    width: 100%;
+    border-radius: 6px;}
+
+div.page--add--form-wrapper form div.left_block{
+    width: 60%;}
+
+div.page--add--form-wrapper form div.right_block{
+    width: 30%;}
+
+div.page--add--form-wrapper form div.page_firstBlock{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;}
+
+div.page--add--form-wrapper form div.right_block{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+div.page--add--form-wrapper form div.right_block div.page_newRightBlock{
+    width: 100%;}
+
+div.page--add--form-wrapper form div.right_block div.page_newRightBlock select,
+div.page--add--form-wrapper form div.right_block div.page_newRightBlock input{
+    width: 100%;}
+
+div.page--add--form-wrapper form div.right_block div.page_newRightBlock select{
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 2px solid #0f0f3d;}
+
+div.page--add--form-wrapper form input[type="text"], 
+div.page--add--form-wrapper form textarea{
+    width: 100%;}
+
+table.page--list{
+    width: 100%;}
+    
+table.page--list tr{
+    background-color: white;}
+
+div.page.search_bar form input{
+    background-color: transparent;
+    font-weight: 700;}
+
+div.page.search_bar form input[type="submit"]{
+    cursor: pointer;}
+
+div.page--pagination{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    padding: 10px 0;}
+
+a.check--website-anchor{
+    text-decoration: none;
+    color: unset;
+    display: block;
+    width: 100%;
+    height: 100%;}
+    
+/* SETTING BLOCK */
+
+div.setting--overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    backdrop-filter: blur(2px);}
+
+div.customjs--settings{
+    position: absolute;
+    width: 95%;
+    z-index: 9999;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 30px;
+    transform: translateX(-50%);
+    height: 550px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    bottom: 0;
+    background-color: #0F0F3D;}
+    
+header#settings--customJS{
+    width: 100%;
+    padding: 5px 10px;
+    min-height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+header#settings--customJS,
+header#settings--customJS i{
+    color: #0F0F3D;}
+
+header#settings--customJS i{
+    font-size: 20px;
+    cursor: pointer;}
+    
+div.middle_content--box{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    margin: 0 auto;}
+
+div.list--elem--setting{
+    width: 20%;
+    height: 95%;
+    background-color: red;}
+
+div.list-content--setting{
+    width: 70%;
+    height: 95%;
+    background-color: yellow;}
